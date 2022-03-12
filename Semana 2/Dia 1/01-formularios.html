@@ -18,12 +18,16 @@
                     type="text"
                     placeholder="Ingresa tus nombres"
                     id="nombres"
+                    required
+                    minlength="2"
+                    maxlength="10"
                 >
                 <br>
                 <label for="">Apellidos:</label>
                 <input 
                     type="text"
                     placeholder="Ingrese sus apellidos"
+                    required
                 >
                 <br>
                 <label for="">email:</label>
@@ -87,6 +91,55 @@
                     type="checkbox"
                     value="peliculas"
                 >Ver peliculas
+                <br>
+                <label for="">Ciudad</label>
+                <br>
+                <select>
+                    <option selected disabled>Selecciona una ciudad</option>
+                    <option value="CA">Chachapoyas</option>
+                    <option value="TM">Tumbes</option>
+                    <option value="PI">Piura</option>
+                    <option value="CH">Chiclayo</option>
+                    <option value="TR">Trujillo</option>
+                    <option value="HR">Huaraz</option>
+                    <option value="LM">Lima</option>
+                    <option value="IC">Ica</option>
+                    <option value="MQ">Moquegua</option>
+                    <option value="AR">Arequipa</option>
+                    <option value="TC">Tacna</option>
+                    <option value="CJ">Cajamarca</option>
+                    <option value="MY">Moyobamba</option>
+                    <option value="HN">Huanuco</option>
+                    <option value="CP">Cerro de Pasco</option>
+                    <option value="HU">Huancayo</option>
+                    <option value="HV">Huancavelica</option>
+                    <option value="HM">Huamanga</option>
+                    <option value="AB">Abancay</option>
+                    <option value="CS">Cusco</option>
+                    <option value="PN">Puno</option>
+                    <option value="IQ">Iquitos</option>
+                    <option value="PU">Pucallpa</option>
+                    <option value="PM">Puerto Maldonado</option>
+                </select>
+                <br>
+                <label for="">Distritos</label>
+                <br>
+                <input list="distritos">
+                <datalist id="distritos">
+                    <option value="Lima">Lima</option>
+                    <option value="Pueblo Libre">Pueblo Libre</option>
+                    <option value="Jesús Maria">Jesús Maria</option>
+                    <option value="Lince">Lince</option>
+                </datalist>
+                <br>
+                <label for="">Fecha de nacimiento</label>
+                <input type="date" name="" id="">
+                <br>
+                <label for="">Color favorito</label>
+                <input type="color" name="" id="">
+                <hr>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Guardar formulario">
             </form>
         </section>
     </main>
