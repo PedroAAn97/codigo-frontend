@@ -11,16 +11,66 @@
     <main>
         <section>
             <h2>Datos principales</h2>
+            <!-- form: sirve como envoltura para los elementos input -->
+            <form>
+                <label for="nombres">Nombres:</label>
+                <input 
+                    type="text"
+                    placeholder="Ingresa tus nombres"
+                    id="nombres"
+                >
+                <br>
+                <label for="">Apellidos:</label>
+                <input 
+                    type="text"
+                    placeholder="Ingrese sus apellidos"
+                >
+                <br>
+                <label for="">email:</label>
+                <input 
+                    type="email"
+                    placeholder="Ingrese su correo"
+                >
+                <br>
+                <label for="">Contraseña:</label>
+                <input 
+                    type="password"
+                    placeholder="Ingrese una contraseña segura"
+                >
+                <br>
+                <label for="">Edad:</label>
+                <input 
+                    type="number"
+                    placeholder="Ingresa tu edad"
+                >
+                <br>
+                <label for="">Género</label>
+                <br>
+                <input 
+                    type="radio"
+                    name="genero"
+                    value="M"
+                    id="rmasculino"
+                >
+                <label for="rmasculino">Masculino</label>
+                <br>
+                <input 
+                    type="radio"
+                    name="genero"
+                    value="F"
+                    id="rfemenino"
+                >
+                <label for="rfemenino">Femenino</label>
+                <br>
+                <input 
+                    type="radio"
+                    name="genero"
+                    value="ND"
+                    id="PFND"
+                >
+                <label for="PFND">Prefiero no decirlo</label>
+            </form>
         </section>
-        <!-- form: sirve como envoltura para los elementos input -->
-        <form>
-            <label for="nombres">Nombres:</label>
-            <input 
-                type="text"
-                placeholder="Ingresa tus nombres"
-                id="nombres"
-            >
-        </form>
     </main>
 </body>
 </html>
