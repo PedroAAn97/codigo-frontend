@@ -1,0 +1,17 @@
+body{
+    width: 30vw;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+button{
+    background-color:cornflowerblue;
+    border: none;
+    color: white;
+    width: 80px;
+    height: 40px;
+}
