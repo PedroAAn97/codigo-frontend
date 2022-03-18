@@ -26,3 +26,14 @@ h3{
     font-size: 1em;
     padding: 1em;
 }
+
+/* COLORES */
+
+h2{
+    color: #ff55ff;
+}
+
+h3{
+    /* color: rgb(45, 200, 141); */
+    color: rgba(45, 200, 141, 0.5)
+}
