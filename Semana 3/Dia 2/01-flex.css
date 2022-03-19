@@ -6,9 +6,21 @@
     border: 1px solid red;
 }
 
+/* padre */
 .menu{
     height: 450px;
     background-color: aquamarine;
+
+    display: flex;
+    /* dirección */
+    flex-direction: row;
+    /* horizontal */
+    justify-content: space-evenly;
+    /* vertical */
+    align-items: center;
+    /* distribución cuando se contrae la ventana */
+    /* flex-wrap: wrap; */
+
 }
 
 .link{
@@ -16,4 +28,29 @@
     color: white;
     height: 50px;
     width: 100px;
+}
+
+/* grow - shrink , estas propiedades se aplican a los elementos hijos */
+/* grow = crecer en base al espacio libre */
+.link:nth-of-type(3){
+    background-color: crimson;
+    /* flex-grow: 4; */
+}
+
+.link:nth-of-type(5){
+    background-color: purple;
+    /* flex-grow: 1; */
+}
+
+/* shrink - encoger */
+/* asume el espacio faltante y hace que los elementos se encojan mas según el valor de flex-shrink */
+.link:nth-of-type(2){
+    background-color: yellow;
+    color: black;
+    flex-shrink: 8;
+}
+
+.link:nth-of-type(6){
+    background-color: black;
+    flex-shrink: 4;
 }
