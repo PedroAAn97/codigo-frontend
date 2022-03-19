@@ -1,0 +1,24 @@
+/* variables, inicio */
+/* para poner variables */
+:root{
+    --color1:#2091f9;
+    --color2:#eb2d7f;
+    --color3:#252b42;
+}
+
+/* reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+    /* temporal */
+    border: 1px solid #ddd;
+    /* color: var(--color1) */
+}
+
+footer{
+    min-height: 250px;
+    background-color: var(--color3);
+    color: white;
+}
