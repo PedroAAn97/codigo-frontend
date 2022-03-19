@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* temp */
+    border: 1px solid red;
+}
+
+.menu{
+    height: 450px;
+    background-color: aquamarine;
+}
+
+.link{
+    background: steelblue;
+    color: white;
+    height: 50px;
+    width: 100px;
+}
