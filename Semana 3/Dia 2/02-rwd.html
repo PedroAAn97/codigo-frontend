@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            height: 50vh;
+            width: 100vw;
+            border: 3px solid red;
+        }
+        .titulares, .noticia{
+            border: 2px solid blue;
+        }
+
+        .titulares{
+            display: flex;
+            justify-content: space-between;
+        }
+        /* @media dispositivo and (condicional:breakpoint) */
+        @media screen and (max-width:768px){
+            h1{
+                background-color: red;
+            }
+            .titulares{
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título</h1>
+    </header>
+    <main>
+        <section class="titulares">
+            <div class="noticia">Lorem ipsum dolor sit amet.</div>
+            <div class="noticia">Lorem ipsum dolor sit amet.</div>
+            <div class="noticia">Lorem ipsum dolor sit amet.</div>
+        </section>
+    </main>
+</body>
+</html>
